@@ -1,0 +1,18 @@
+/*Adjusts the entire palette of the app -> App side
+  Use display flex to separate the 2 views that are going to be built
+  Fixed the width and height for the desktop display
+  Apply some top and bottom margins to separate the view from the corners
+  Auto left and right to plave it in the middle*/
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 725px;
+    height: 400px;
+    padding-left: 10px;
+    margin: 50px auto;
+    background-color: #d11313;
+    border-radius: 10px;
+    box-shadow: 0 14px 45px rgba(0, 0, 0, 0.22), 0 18px 45px rgba(0, 0, 0, 0.22);
+}

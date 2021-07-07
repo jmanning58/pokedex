@@ -1,0 +1,47 @@
+/*Adjusts the background overlapping App.css*/
+
+.detail-view {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    background-color: #ec0d0d;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Adjusts the sprite-image on right side*/
+.sprite-image {
+    width: 70%;
+    height: 190px;
+    margin: 10px auto;
+    background-color: #585858;
+    border: 15px solid #DEDEDE;
+    border-radius: 5px;
+    color: #585858;
+}
+
+/*Adjusts information box*/
+.data-wrapper {
+    width: 80%;
+    height: 110px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #585858;
+    border-radius: 5px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.22);
+    color: #fff;
+}
+
+/*Adjusts the Name of the Pokemon*/ 
+.data-name {
+    text-transform: capitalize;
+    margin: 0 0 5px;
+}
+
+/*Adjusts the font of type*/
+.data-char {
+    font-size: 15px;
+}
